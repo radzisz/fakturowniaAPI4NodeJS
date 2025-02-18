@@ -1,7 +1,7 @@
 # fakturowniaAPI4NodeJS
 Nieoficjalna Bibliteka umożliwiająca korzystanie z systemu Fakturownia [www.fakturownia.pl].
 
-## Przykłady uzycia
+## Przykłady użycia
 
 ``` node.js
 
@@ -15,7 +15,7 @@ const invoices2 = api.invoiceList().forPeriod(new Date(), new Date())
 
 ```
 
-## wspierane funkcje
+## Wspierane funkcje
 
 ### invoice
 
@@ -26,8 +26,8 @@ const invoices2 = api.invoiceList().forPeriod(new Date(), new Date())
 
 # Uwagi
 
-Bibliotekla jest na wczesnym etapie, zatem
-a) nie zawiera kompletu fukkcjonalności
-b) może zaweirac błedy
-c) może podlegać istotnym zmianom i nie byc kompatybilna z wcześniejszymi wersjami
+Biblioteka jest na wczesnym etapie, zatem
+- a) nie zawiera kompletu fukkcjonalności
+- b) może zaweirac błedy
+- c) może podlegać istotnym zmianom i nie byc kompatybilna z wcześniejszymi wersjami
 
